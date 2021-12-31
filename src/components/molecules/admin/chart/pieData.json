@@ -1,0 +1,32 @@
+[
+  {
+    "id": "43",
+    "label": "Leopold FC660C",
+    "value": 349,
+    "color": "hsl(333, 70%, 50%)"
+  },
+  {
+    "id": "39",
+    "label": "Ducky Shine",
+    "value": 552,
+    "color": "hsl(232, 70%, 50%)"
+  },
+  {
+    "id": "40",
+    "label": "Ducky One",
+    "value": 578,
+    "color": "hsl(25, 70%, 50%)"
+  },
+  {
+    "id": "41",
+    "label": "Obinslab Anne",
+    "value": 425,
+    "color": "hsl(131, 70%, 50%)"
+  },
+  {
+    "id": "42",
+    "label": "Ducky Mecha",
+    "value": 425,
+    "color": "hsl(131, 70%, 50%)"
+  }
+]

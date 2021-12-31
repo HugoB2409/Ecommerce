@@ -1,0 +1,58 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@brainhubeu/react-file-input": "^0.7.16",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@nivo/pie": "^0.62.0",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.8.0",
+    "axios": "^0.19.2",
+    "easy-peasy": "^3.3.1",
+    "material-ui-dropzone": "^2.4.9",
+    "prop-types": "^15.7.2",
+    "qs": "^6.9.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-file-input": "^0.2.5",
+    "react-hook-form": "^5.4.2",
+    "react-image-gallery": "^1.0.7",
+    "react-image-magnify": "^2.7.4",
+    "react-image-zoom": "^1.3.1",
+    "react-inner-image-zoom": "^1.1.0",
+    "react-number-format": "^4.4.1",
+    "react-responsive-carousel": "^3.2.9",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.1.4",
+    "react-slick": "^0.25.2",
+    "react-stripe-elements": "^6.1.1",
+    "slick-carousel": "^1.8.1",
+    "source-map-explorer": "^2.5.0",
+    "stripe": "^8.78.0",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "deploy": "aws s3 sync build/ s3://qwertykeyboards",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-hook-form-devtools": "^1.2.0"
+  }
+}
